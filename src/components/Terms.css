@@ -1,0 +1,21 @@
+.termsBox {
+    padding: 2rem;
+}
+
+.termsPayBox {
+    display: flex;
+    align-items: center;
+}
+
+.termsImg {
+    height: 5rem;
+    margin-right: 0.5rem;
+}
+
+.termsImgVb {
+    height: 3rem;
+}
+
+.termsPRed {
+    color: brown;
+}

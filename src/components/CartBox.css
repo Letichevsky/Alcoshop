@@ -1,0 +1,137 @@
+.cartBox {
+    position: fixed;
+    z-index: 999;
+    top: 5rem;
+    right: 0rem;
+    width: 20rem;
+    height: 100vh;
+    padding: 2rem;
+    background-color: #fff;
+    transition: 2s ease-in-out;
+    overflow-y: scroll;
+    padding-bottom: 10rem;
+    box-sizing: border-box;
+    border-left: 1px solid #c5c5c5;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    animation: cartBox 0.3s ease-in-out;
+}
+
+@keyframes cartBox {
+    0% {
+        margin-right: -16rem;
+    }
+
+    100% {
+        margin-right: 0rem;
+    }
+}
+
+
+.item_body {
+    display: flex;
+    margin-bottom: 1rem;
+    border: 1px solid #c5c5c5;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.cartItemImg {
+    height: 7rem;
+    margin-right: 0.7rem;
+}
+
+.itemTitle {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+    text-align: left;
+}
+
+.itemPrice {
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+/* .itemButton {
+    width: 7rem;
+    height: 1.5rem;
+    box-sizing: border-box;
+    background: #E50100;
+    border: 0;
+    color: #fff;
+    border-radius: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin: 0 0 1.5rem 0;
+    transition: 0.3s ease-in-out;
+} */
+
+.itemButtonsBox {
+    display: flex;
+    height: 1.5rem;
+}
+
+.itemButton {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #E50100;
+    border: 0;
+    color: #fff;
+    border-radius: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin: 0 0 1.5rem 0;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemButton:hover {
+    background: #fd2020;
+    transform: scale(0.97);
+}
+
+.itemCount {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #fff;
+    border: 2px solid #c5c5c5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #000;
+    font-weight: 600;
+    margin: 0 0.5rem;
+}
+
+.totalPrice {
+    font-weight: 600;
+}
+
+.payButton {
+    width: 7rem;
+    height: 1.5rem;
+    box-sizing: border-box;
+    background: #E50100;
+    border: 0;
+    color: #fff;
+    border-radius: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin: 0 0 1.5rem 0;
+    transition: 0.3s ease-in-out;
+}
+
+.payButton:hover {
+    background: #fd2020;
+    transform: scale(0.97);
+}

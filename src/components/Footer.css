@@ -1,0 +1,58 @@
+.footer {
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.leftBox {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.f_logo {}
+
+.f_link {
+    cursor: pointer;
+    color: #fff;
+    width: min-content;
+    text-wrap: nowrap;
+}
+
+.f_link:hover {
+    color: #c5c5c5;
+}
+
+.rightBox {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.f_text {
+    text-align: right;
+    color: #fff;
+}
+
+.paymentsLogo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.bottomBox {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #fff;
+}

@@ -1,0 +1,20 @@
+.countPoint {
+    position: absolute;
+    top: 0.5rem;
+    right: 3.5rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #E50100;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: 800;
+}
+
+.countPoint.empty {
+    background-color: #777;
+}

@@ -1,0 +1,62 @@
+.welcomeBanerBg {
+    width: 100svw;
+    height: 100svh;
+    position: fixed;
+    background-color: #00000050;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcomeBaner {
+    width: 30rem;
+    background-color: #fff;
+    padding: 1rem 2rem 2rem 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.welcomeBanerTitle {
+    margin-bottom: 1.5rem;
+}
+
+.welcomeBanerDescription {
+    margin-bottom: 2rem;
+}
+
+.checkboxBox {
+    display: flex;
+}
+
+.checkboxDesc {
+    margin-left: 1rem;
+}
+
+.welcomeBanerButton {
+    width: 7rem;
+    height: 1.5rem;
+    box-sizing: border-box;
+    background: #E50100;
+    border: 0;
+    color: #fff;
+    border-radius: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin: 0 0 1.5rem 0;
+    transition: 0.3s ease-in-out;
+}
+
+.welcomeBanerButton:hover {
+    background: #fd2020;
+    transform: scale(0.97);
+}
+
+.disabled {
+    background-color: #a2a2a2;
+}
+
+.disabled:hover {
+    background: #a2a2a2;
+    transform: none;
+}

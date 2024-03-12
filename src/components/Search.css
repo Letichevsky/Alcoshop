@@ -1,0 +1,10 @@
+.searhIcon {
+    margin-right: 0.5rem;
+}
+
+.search {
+    height: 1.6rem;
+    border: 2px solid #000;
+    border-radius: 1rem;
+    padding: 0 0.5rem;
+}

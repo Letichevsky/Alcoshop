@@ -1,0 +1,74 @@
+.Header {
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    z-index: 888;
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    /* background-color: rgba(204, 204, 204, 0.75); */
+    /* backdrop-filter: blur(20px); */
+    /* -webkit-backdrop-filter: blur(20px); */
+    background-color: #fff;
+    border-bottom: 1px solid #c5c5c5;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.burgerSearchBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 17rem;
+}
+
+.searhIcon {
+    margin-right: 0.5rem;
+}
+
+.search {
+    height: 1.6rem;
+    border: 2px solid #000;
+    border-radius: 1rem;
+    padding: 0 0.5rem;
+}
+
+.logo {
+    height: 49px;
+    width: 17rem;
+    display: flex;
+    justify-content: center;
+}
+
+.deliveryCartBox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 17rem;
+}
+
+.delivery {
+    width: 183;
+    height: 48;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 845px) {
+    .delivery {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .Header {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .countPoint {
+        right: 0.5rem;
+    }
+}

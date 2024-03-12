@@ -1,0 +1,47 @@
+.burgerMenu {
+    position: fixed;
+    z-index: 999;
+    top: 5rem;
+    left: 0;
+    width: 12rem;
+    height: 100vh;
+    /* background-color: rgba(204, 204, 204, 0.75); */
+    /* backdrop-filter: blur(20px); */
+    /* -webkit-backdrop-filter: blur(20px); */
+    background-color: #fff;
+    padding: 2rem;
+    transition: 2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    /* border-top: 1px solid #c5c5c5; */
+    border-right: 1px solid #c5c5c5;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    animation: burgerMenu 0.3s ease-in-out;
+}
+
+@keyframes burgerMenu {
+    0% {
+        margin-left: -16rem;
+    }
+
+    100% {
+        margin-left: 0rem;
+    }
+}
+
+.navLink {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.navLink:hover {
+    color: #000;
+}
+
+.navLink.active {
+    color: #E50100;
+}

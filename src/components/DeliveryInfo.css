@@ -1,0 +1,90 @@
+.deliveryInfo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    background: #00000077;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes delInfoAnim {
+    0% {
+        transform: rotateX(90deg);
+    }
+
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+.deliveryInfoBox {
+    background: #fff;
+    border: 1px solid #c5c5c5;
+    padding: 2rem;
+    padding-bottom: 0;
+    animation: delInfoAnim 0.3s ease-in-out;
+}
+
+.closeButtonBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.deliveryInfoTitle {
+    margin: 0;
+}
+
+.closeButton {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url('../assets/x.png') no-repeat center center / cover;
+}
+
+.inputArea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 0;
+}
+
+.inputBox {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inputLabel {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.delInput {
+    width: 20rem;
+    height: 2rem;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+
+.inputComment {
+    padding: 0.5rem;
+    height: 7rem;
+    width: 20rem;
+    resize: none;
+}
+
+.deliveryPayButton {
+    margin: 0;
+}

@@ -1,0 +1,285 @@
+.carusel {
+    width: 100%;
+    /* height: 100svh; */
+    background-color: #fff;
+}
+
+.slick-slider.slick-initialized {}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {}
+
+.slick-slide {
+    /* height: 100svh; */
+    background-color: #000;
+}
+
+.section_type_5_carusel {
+    padding-top: 5rem;
+    /* height: 100svh; */
+    margin: 0 auto;
+    background: #000;
+    width: 100svw;
+    /* max-width: 1920px; */
+    min-width: 0;
+    background: radial-gradient(28.75% 100% at 50% 0%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #F2F2F2;
+}
+
+.slider {
+    position: relative;
+    z-index: 1;
+}
+
+.slider_item {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider_item_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sliderImg {
+    /* min-height: 90svh; */
+}
+
+/* .slider_item1 {
+    background: url(../assets/Banner.png) no-repeat center center / cover;
+}
+
+.slider_item2 {
+    background: url(../assets/Banner.png) no-repeat center center / cover;
+}
+
+.slider_item3 {
+    background: url(../assets/Banner.png) no-repeat center center / cover;
+}
+
+.slider_item4 {
+    background: url(../assets/Banner.png) no-repeat center center / cover;
+} */
+
+.btn {
+    width: 12rem;
+    height: 3.75rem;
+    box-sizing: border-box;
+    background: #E50100;
+    border: 0;
+    color: #fff;
+    border-radius: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1.5rem 0;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    /* border: 0.225rem solid #fff; */
+    background: #fd2020;
+    transform: scale(0.97);
+}
+
+.s7_item_L_half {
+    width: 50%;
+    height: min-content;
+}
+
+.s7_item_R_half {
+    box-sizing: border-box;
+    width: 50%;
+    height: min-content;
+    padding: 0 3.75rem;
+}
+
+.s7_image {
+    /* max-width: 36.25rem; */
+    /* max-height: 20.37rem; */
+}
+
+/* SLIDER SLICK */
+
+/* Слайдер */
+/* .slick-slider {} */
+
+/* Слайдер запущен */
+/* .slick-slider.slick-initialized {} */
+
+/* Слайдер с точками */
+/* .slick-slider.slick-dotted {} */
+
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Слайд */
+/* .slick-slide {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* Слайд активный (показывается) */
+/* .slick-slide.slick-active {} */
+
+/* Слайд основной */
+/* .slick-slide.slick-current {} */
+
+/* Слайд по центру */
+/* .slick-slide.slick-center {} */
+
+/* Клонированный слайд */
+/* .slick-slide.slick-cloned {} */
+
+/* Стрелка */
+/* .slick-arrow {} */
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Стрелка вправо */
+/* .slick-arrow.slick-next {} */
+
+/* Стрелка не активная */
+/* .slick-arrow.slick-disabled {} */
+
+/* Точки (булиты) */
+/* .slick-dots {} */
+
+/* .slick-dots li {} */
+
+/* Активная точка */
+/* .slick-dots li.slick-active {} */
+
+/* Элемент точки */
+/* .slick-dots li button {} */
+
+/* MY SLIDER */
+.slick-slider ul {
+    display: none;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+}
+
+.slider .slick-dots {
+    transition: 0.5s ease-in-out;
+    z-index: 10;
+    border: none;
+}
+
+.slider .slick-dots li {
+    list-style: none;
+    margin: 0rem 1.25rem 2rem 1.25rem;
+}
+
+.slider .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #CCCCCC;
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
+}
+
+.slider .slick-dots li.slick-active button {
+    background-color: #999999;
+    transition: 0.5s ease-in-out;
+}
+
+/* SPACER */
+.spacer {
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 1920px;
+    height: 4rem;
+    background-color: #fff;
+}
+
+
+
+/* //////////////////////////////SLIDER  */
+/* Используйте более специфичные селекторы для изменения порядка элементов слайдера */
+
+/* Ограничивающая оболочка */
+.slick-list {
+    display: flex !important;
+    align-items: flex-start !important;
+}
+
+/* Лента слайдов */
+.slick-track {
+    display: flex !important;
+    align-items: flex-start !important;
+}
+
+/* Слайд с более специфичным селектором */
+.slider .slick-slide {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    height: 100% !important;
+    box-sizing: border-box !important;
+}
+
+
+/* ADAPTATION */
+@media screen and (max-width: 1560px) {
+    .sliderImg {
+        height: 40rem;
+    }
+
+}
+
+@media screen and (max-width: 1330px) {
+    .sliderImg {
+        height: 30rem;
+    }
+
+}
+
+@media screen and (max-width: 1040px) {
+    .sliderImg {
+        height: 20rem;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    .sliderImg {
+        height: 15rem;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    .sliderImg {
+        height: 13rem;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .sliderImg {
+        height: 10rem;
+    }
+
+}

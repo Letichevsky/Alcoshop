@@ -1,0 +1,24 @@
+.burgerBox {
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 3rem;
+}
+
+.burgerLine {
+    width: 2.25rem;
+    height: 2px;
+    background-color: #000;
+    border-radius: 2px;
+}
+
+.burgerLine1 {
+    transform: rotate(45deg);
+    margin-bottom: -11px;
+}
+
+.burgerLine2 {
+    transform: rotate(-45deg);
+    margin-top: -11px;
+}
